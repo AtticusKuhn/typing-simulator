@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h1>Typing Training</h1>
+	<canvas id='textCanvas'></canvas>
+	<canvas width="2000" height="13" id='textCanvas2'></canvas>
+	<br>
+    <img id = 'image'></img>
+    <br>
+    <input  id = 'textInput' spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off" type="text" onkeypress="newkey()"></input>
+    <button onclick ="request()" >Get Text</button>
+    <div id = "wordscounter">0 words typed</div>
+    <div id = "timecounter">0 time taken</div>
+     <div id = "scorecounter">0 score</div>
+     <div id = "wpmcounter">0 words per mintue</div>
+     <div id = "accuracycounter">0 accuracy</div>
+      <div id = "completetioncounter">0 completetion</div>
+    <script src="script.js"></script>
+  </body>
+</html>
